@@ -6,7 +6,6 @@ public abstract class NumerosMinimos implements Handler{
         int cont = 0;
         char[] chars = userAddress.toCharArray();
         for (char c: chars) {
-            System.out.println(Character.isDigit(c));
             if (Character.isDigit(c))
                 cont++;
         }
